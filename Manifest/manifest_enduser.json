@@ -15,11 +15,11 @@
     "outline": "outline.png"
   },
   "name": {
-    "short": "FAQ Plus [V2]"
+    "short": "FAQ Plus"
   },
   "description": {
-    "short": "A friendly FAQ bot that answers questions and connects you to experts.",
-    "full": "A friendly question and answer bot that answers commonly asked questions. If it can't answer, it will put you in touch with an expert as soon as they are available."
+    "short": "En vänlig FAQ-bot som svarar på frågor och kopplar dig till experter.",
+    "full": "En vänlig fråga och svara bot som svarar på vanliga frågor. Om den inte kan svara kommer den att kontakta en expert så snart de är tillgängliga."
   },
   "accentColor": "#64A2CC",
   "bots": [
@@ -36,16 +36,16 @@
           ],
           "commands": [
             {
-              "title": "Take a tour",
-              "description": "Tour of key features"
+              "title": "Ta en rundtur",
+              "description": "Rundtur med viktiga funktioner"
             },
             {
-              "title": "Ask an expert",
-              "description": "Connect with an expert"
+              "title": "Fråga en expert",
+              "description": "Anslut med en expert"
             },
             {
-              "title": "Share feedback",
-              "description": "Send feedback"
+              "title": "Dela feedback",
+              "description": "Skicka synpunkter"
             }
           ]
         }
@@ -57,7 +57,7 @@
   "staticTabs": [
     {
       "entityId": "help",
-      "name": "Help",
+      "name": "Hjälp",
       "contentUrl": "https://<<appDomain>>/help?theme={theme}",
       "scopes": [
         "personal"
